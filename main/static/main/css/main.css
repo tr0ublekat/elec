@@ -1,0 +1,27 @@
+body{
+    background: rgb(236, 235, 235);
+}
+
+aside{
+    float:right;
+    background: rgb(180, 180, 180);
+    width: 15%;
+    padding: 2.5%;
+    height: 100vh;
+    color:black;
+    border-left: 5px solid rgb(167, 65, 79)(25, 0, 255);
+}
+
+aside img{
+    width: 100px;
+    height: 100px;
+}
+
+#shapka {
+    width: 1900px;
+    height: 60px;
+    background: #4da1f7;
+}
+
+aside ul{list-style: none}
+
