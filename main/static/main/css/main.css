@@ -1,27 +1,87 @@
 body{
-    background: rgb(236, 235, 235);
+    background: rgba(245, 245, 247, 0.8);
 }
 
 aside{
     float:right;
-    background: rgb(180, 180, 180);
-    width: 20%;
+    background: rgba(245, 245, 247, 0.8);
+    border: rgba(205, 207, 213, 0.8) 2px solid;
+    width: 15%;
     padding: 2.5%;
     height: 100vh;
     color:black;
-    border-left: 5px solid rgb(167, 65, 79)(25, 0, 255);
+    border-right: 5px solid rgb(167, 65, 79)(25, 0, 255);
+    text-align: center;
+}
+
+#shapka {
+    position: static;
+    width: 100%;
+    height: 75px;
+    background: rgba(245, 245, 247, 0.8);
+    border: rgba(205, 207, 213, 0.8) 2px solid;
+
+}
+
+div .logo{
+    font-size:40px;
+    margin-left: 10px;
+    position: relative;
+    top: 10px;
+    color: rgb(49, 49, 49)
+}
+
+div .search{
+    float:left;
+    position: relative;
+    top: 10px;
+    color: rgb(49, 49, 49)
+}
+
+aside h3{
+    margin-top: 10px;
+    font-size: 25px;
 }
 
 aside img{
     width: 100px;
     height: 100px;
-}
-
-#shapka {
-    width: 1900px;
-    height: 60px;
-    background: #4da1f7;
+    margin-top: -20px;
+    margin-left: -10px;
 }
 
 aside ul{list-style: none}
+aside ul a {text-decoration: none;}
 
+aside ul li{
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    color:rgb(171, 171, 184);
+
+}
+
+aside ul li:hover, aside ul a:hover{
+    color:rgb(104, 101, 101);
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .mainblock{
+    float: left;
+    color: rgb(156, 65, 65);
+    margin-top: 10px;
+    text-align: center;
+    width: 75%;
+}
+
+main .mainblock h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+main .mainblock p{
+    font-size: 30px;
+    max-width: 400px;
+    margin: 20px auto;
+}
