@@ -71,8 +71,8 @@ main .mainblock{
     float: left;
     color: rgb(156, 65, 65);
     margin-top: 10px;
-    text-align: center;
     width: 75%;
+    margin-left: 100px;
 }
 
 main .mainblock h1 {
@@ -82,6 +82,11 @@ main .mainblock h1 {
 
 main .mainblock p{
     font-size: 30px;
-    max-width: 400px;
-    margin: 20px auto;
 }
+
+.account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+  }

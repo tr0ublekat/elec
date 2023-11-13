@@ -17,7 +17,14 @@
         </div>
 
         <aside>
-
+            {% if user.is_authenticated %}
+            	<a class="nav-item nav-link" href="{% url 'profile' %}">Профиль</a>
+            	<a class="nav-item nav-link" href="{% url 'logout' %}">Выход</a>
+          	{% else %}
+            	<a class="nav-item nav-link" href="{% url 'login' %}">Вход</a>
+            	<a class="nav-item nav-link" href="{% url 'register' %}">Регистрация</a>
+          	{% endif %}
+            
             <h3>Навигация</h3>
             <ul>
                 <a href="{% url 'main' %}"><li><i class="fa-solid fa-bars"></i> Главная</li></a>
