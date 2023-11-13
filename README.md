@@ -2,10 +2,10 @@
 
 Установка:
 1) Создаём папку для хранения проекта (любое название), пишем в командной строке этой папки эту команду 'git clone https://github.com/tr0ublekat/elec.git'
-2) Далее заходим в нашу папку, где лежит наш проект (одиночная папка elec) и устанавливаем виртуальную среду (venv) командой 'python -m venv venv'
+2) Устанавливаем виртуальную среду (venv) командой 'python -m venv venv'
 3) Активируем вирт. среду командой 'venv\scripts\activate'. И если все получилось, то перед путем к папке в командной строке появится "(venv) C:\...". Далее выполняем все команды под виртуальной средой
-4) Устанавливаем все нужные пакеты 'pip install -r requirements.txt'
-5) Переходим по ссылке 'https://proghunter.ru/articles/django-base-2023-installing-postgresql-in-django#%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-postgresql-%D0%BD%D0%B0-%D0%BF%D0%BA' и следуем инструкциям пункта 'Запускаем pgAdmin'
+4) Переходим в папку elec командой 'cd elec' и устанавливаем все нужные пакеты 'pip install -r requirements.txt'
+5) Далее установим Postgresql: переходим по ссылке 'https://proghunter.ru/articles/django-base-2023-installing-postgresql-in-django#%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-postgresql-%D0%BD%D0%B0-%D0%BF%D0%BA' и следуем инструкциям пункта 'Запускаем pgAdmin'
 6) На этом установка завершена.
 
 Запуск локального сервера:
